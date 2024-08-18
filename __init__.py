@@ -4,9 +4,9 @@ UA Module
 This module provides the UA class to fetch random user agents.
 
 Usage:
-    import RandomUAgents
+    import randomuagents
 
-    ua_instance = RandomUAgents.UA("desktop")
+    ua_instance = randomuagents.UA("desktop")
     random_ua = ua_instance._uGet()
     print(random_ua)
 
@@ -26,7 +26,7 @@ Example:
     print(random_ua)
 """
 
-from _d import ua
+from randomuagents._d import ua
 class UA():
     """
     UA Class
