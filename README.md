@@ -7,7 +7,7 @@ Library for fetching random user agents based on device type (desktop, mobile, e
 You can install the library using `pip`:
 
 ```bash
-pip install RandomUAgents==1.0.2
+pip install randomuagents
 ```
 
 # Usage
